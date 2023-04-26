@@ -20,18 +20,6 @@ token_weather = '6e8d79779a0c362f14c60a1c7f363e29'
 #global
 city_name = ""
 
-# class ScrButton(Button):
-#   def __init__(self, screen, direction='right', goal='main', **kw):
-#     super().__init__(**kw)
-#     self.screen = screen
-#     self.direction = direction
-#     self.goal = goal
-    
-
-  # def on_press(self):
-  #   self.screen.manager.transition.direction = self.direction
-  #   self.screen.manager.current = self.goal
-
 class MainScr(Screen):
   def __init__(self, **kw):
     super().__init__(**kw)
